@@ -18,7 +18,7 @@
         <module>cloud_service</module>
         <module>cloud_gateway</module>
         <module>cloud_config</module>
-        <module>cloud_service1</module>
+        <module>cloud_service2</module>
     </modules>
     <dependencies>
         <dependency>
