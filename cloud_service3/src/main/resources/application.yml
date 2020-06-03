@@ -10,3 +10,9 @@ eureka:
     instance-id: http://localhost:9003
 server:
   port: 9003
+classpath_mapping:
+  classpath:/META-INF/resources/
+url_mapping:
+  file:/Users/xuyuanfeng/file/
+file_upload_path:
+  /Users/xuyuanfeng/file/

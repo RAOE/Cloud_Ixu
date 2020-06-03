@@ -10,11 +10,11 @@
         <module name="service2" />
         <module name="cloud_config" />
         <module name="cloud_service" />
+        <module name="cloud_service2" />
         <module name="cloud_common" />
-        <module name="service" />
         <module name="cloud_gateway" />
         <module name="cloud_service3" />
-        <module name="cloud_service2" />
+        <module name="service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

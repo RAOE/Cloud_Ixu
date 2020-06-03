@@ -5,9 +5,8 @@ eureka:
 spring:
   application:
     name: gateway
-  context
 server:
-  port: 8088
+  port: 80
 zuul:
   routes:
     service: /service/0/**
