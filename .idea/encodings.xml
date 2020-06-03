@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/cloud_common/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud_config/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud_config/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud_gateway/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud_register/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud_service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud_service2/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud_service3/src/main/java" charset="UTF-8" />
   </component>
 </project>

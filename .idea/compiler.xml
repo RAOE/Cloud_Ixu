@@ -10,8 +10,10 @@
         <module name="service2" />
         <module name="cloud_config" />
         <module name="cloud_service" />
+        <module name="cloud_common" />
         <module name="service" />
         <module name="cloud_gateway" />
+        <module name="cloud_service3" />
         <module name="cloud_service2" />
       </profile>
     </annotationProcessing>
@@ -22,11 +24,13 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="cloud_common" options="-parameters" />
       <module name="cloud_config" options="-parameters" />
       <module name="cloud_gateway" options="-parameters" />
       <module name="cloud_register" options="-parameters" />
       <module name="cloud_service" options="-parameters" />
       <module name="cloud_service2" options="-parameters" />
+      <module name="cloud_service3" options="-parameters" />
       <module name="service" options="-parameters" />
       <module name="service2" options="-parameters" />
     </option>

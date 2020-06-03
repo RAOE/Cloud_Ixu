@@ -16,6 +16,7 @@
         <option value="$PROJECT_DIR$/cloud_config/pom.xml" />
         <option value="$PROJECT_DIR$/service2/pom.xml" />
         <option value="$PROJECT_DIR$/cloud_service2/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud_service3/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
