@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="cloud_register" />
+        <module name="service2" />
+        <module name="cloud_config" />
+        <module name="cloud_service" />
+        <module name="service" />
+        <module name="cloud_gateway" />
+        <module name="cloud_service2" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="service" target="1.8" />
+      <module name="service2" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="cloud_config" options="-parameters" />
+      <module name="cloud_gateway" options="-parameters" />
+      <module name="cloud_register" options="-parameters" />
+      <module name="cloud_service" options="-parameters" />
+      <module name="cloud_service2" options="-parameters" />
+      <module name="service" options="-parameters" />
+      <module name="service2" options="-parameters" />
+    </option>
+  </component>
+</project>
