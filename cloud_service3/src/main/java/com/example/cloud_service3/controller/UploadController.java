@@ -23,11 +23,18 @@ public class UploadController extends BaseController {
 
     @Value("${file_upload_path}")
     private String fileUploadPath;
+    /**
+     * 文件最大大小
+     */
+    private final long MAX_SIZE = 20480000000L;
 
     @RequestMapping("/upload")
     public JsonResult upload(MultipartFile file) {
         if (file == null || file.getSize() <= 0) {
             return JsonResult.errorMsg("文件不存在");
+        }
+        if (file.getSize() > MAX_SIZE) {
+            return JsonResult.errorMsg("文件大小超出了限制");
         }
         InputStream inputStream = null;
         FileOutputStream fileOutputStream = null;

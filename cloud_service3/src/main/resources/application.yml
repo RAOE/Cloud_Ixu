@@ -10,6 +10,9 @@ eureka:
     instance-id: http://localhost:9003
 server:
   port: 9003
+servlet:
+  multipart:
+    max-file-size: 20480000000
 classpath_mapping:
   classpath:/META-INF/resources/
 url_mapping:
